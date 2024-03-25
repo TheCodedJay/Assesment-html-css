@@ -2,12 +2,35 @@
 //  Config
 // ======================================
 
-// Colors
+// Fonts stack
+
+$font-stack-prim   :  Poppins, sans-serif;
+
+//Font weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+
+// Base Colors
 
 $white   : #fff;
+$black   : #0b0b0b;
+$grey    : #797e83;
+
+// Colour usage
 
 $c-prim  : #333645;
 
-// Fonts
+// Text
 
-$font-stack-prim   :  Poppins, sans-serif;
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+// Path to Assets
+
+$path--rel      : "../img";

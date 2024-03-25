@@ -1,0 +1,46 @@
+// BEM selectors
+
+@mixin e($element) {
+	&__#{$element} {
+    @content;
+  }
+}
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// breakpoints
+
+$breakpoints: (
+  xsmall   : (min-width: 0px)    ,
+  small    : (min-width: 480px)  ,
+  medium   : (min-width: 768px)  ,
+  large    : (min-width: 1024px) ,
+);
+
+
+@mixin xs {
+    @media (min-width: map-get($breakpoints, xs)) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media (min-width: map-get($breakpoints, sm)) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: map-get($breakpoints, md)) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: map-get($breakpoints, lg)) {
+        @content;
+    }
+}

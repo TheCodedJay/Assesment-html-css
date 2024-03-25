@@ -1,0 +1,25 @@
+// Grid
+
+.header {
+    grid-area: header;
+  }
+.banner {
+    grid-area: banner;
+  }
+.middle {
+    grid-area: middle;
+  }
+.footer {
+    grid-area: footer;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 100%vw;
+    grid-template-rows: 150%vh;
+    grid-template-areas: 
+        "header"
+        "banner"
+        "middle"
+        "footer";
+}
