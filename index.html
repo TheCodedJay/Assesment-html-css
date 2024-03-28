@@ -8,32 +8,74 @@
   </head>
     <body>
       <div class="container">
-          <header class="header">
-              <div class="header__logo" href="#top">
-                <a><img src="/img/nmlogo.png" alt="logo"></a>
-              </div>
-              <div class="header__actions">
-                <button type="button" class="btn--primary hamburger">
-                  <img src="/img/Icons/menu.png" alt="menu">
-                </button>
-              </div>
-              <div class="header__searchbar">
-                <input class="search-bar" placeholder="Search...">
-                <button  type="submit">
-                  <img src="/img/Icons/search.png" alt="search">
-                </button>
-              </div>
-          </header>
 
-          <div class="banner">
-            <p>banner</p>
+        <!-- header -->
+
+        <header class="header">
+            <div class="header__logo" href="#top">
+              <a><img src="/img/nmlogo.png" alt="logo"></a>
+            </div>
+            <div class="header__actions">
+              <button type="button" class="btn--primary hamburger">
+                <img src="/img/Icons/menu.png" alt="menu">
+              </button>
+            </div>
+            <div class="header__searchbar">
+              <input class="search-bar" placeholder="Search...">
+              <button  type="submit">
+                <img src="/img/Icons/search.png" alt="search">
+              </button>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        
+        <div class="banner">
+          <p>banner</p>
+        </div>
+
+        <!-- Middle -->
+
+        <div class="middle">
+
+          <div class="middle__clients">
+            <p>place holder for sliding images</p>
           </div>
 
-          <div class="middle">
-            <p>middle</p>
-          </div>
+          <div class="middle__signup">
+            <h2>Email Newsletter Sign-Up</h2>
 
-      <footer>
+            <div class="middle__signup--wrap">
+
+              <div class="middle__signup--input">
+                <label for="newsletter-name" class="required">Your Name</label>
+                <input class="form-control" id="newsletter-name" name="name" type="text" value="">
+              </div>
+
+              <div class="middle__signup--input">
+                <label for="newsletter-email" class="required">Your Email</label>
+                <input class="form-control" id="newsletter-email" name="email" type="email" value="">
+              </div>
+
+            </div>
+
+            <div class="middle_signup--preferance">
+              <label>
+                <input name="preference" type="checkbox" value="1">
+                Please tick this box if you wish to receive marketing information from us.
+                Please see our <a href="#" target="_blank">Privacy Policy</a> for more information on how we keep your data safe.
+              </label>
+              <button name="submit" class="btn btn-primary">
+                Subscribe
+              </button>
+            </div>
+
+          </div>
+        </div>
+          
+          <!-- Footer -->
+
+        <footer>
           <div class="footer__socials">
             <div class="footer--logo">
                 <img src="/img/nmlogowhite.png">
@@ -109,7 +151,7 @@
                         Sitemap
                     </a>  
           </div>
-       </footer>
+        </footer>
       </div>
     </body>
   </html>
