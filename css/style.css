@@ -307,6 +307,19 @@ template {
   display: none;
 }
 
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+}
+
 .header {
   background-color: #fff;
   box-sizing: border-box;
@@ -322,9 +335,44 @@ template {
   box-sizing: border-box;
 }
 
-.footer {
-  background-color: #333645;
+footer {
   box-sizing: border-box;
+  background-color: #323544;
+  color: #fff;
+  padding: 27px 0 0;
+  position: relative;
+}
+
+.footer h4 {
+  font-size: 16px;
+}
+
+.footer--logo img {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+footer ul li {
+  box-sizing: border-box;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+div[class^=footer__] {
+  padding: 0px;
+  margin: 0px 0px 30px;
+}
+
+.footer--bottom {
+  font-size: 0.8125rem;
+  background-color: #212330;
+  padding: 0px 15px;
 }
 
 .header {
@@ -349,6 +397,16 @@ template {
   grid-template-rows: 150% vh;
   grid-template-areas: "header" "banner" "middle" "footer";
 }
+.container div {
+  padding: 0 15px;
+}
+
+footer__socials--links a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
 
 .btn--primary img {
   display: inline-block;
@@ -365,15 +423,6 @@ template {
 
 .search-bar {
   flex: 1;
-}
-
-.btn--primary.hamburger {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
 }
 
 /*# sourceMappingURL=style.css.map */

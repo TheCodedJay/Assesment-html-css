@@ -14,12 +14,16 @@
   }
 
 .container {
-    display: grid;
-    grid-template-columns: 100%vw;
-    grid-template-rows: 150%vh;
-    grid-template-areas: 
-        "header"
-        "banner"
-        "middle"
-        "footer";
+  display: grid;
+  grid-template-columns: 100%vw;
+  grid-template-rows: 150%vh;
+  grid-template-areas: 
+      "header"
+      "banner"
+      "middle"
+      "footer";
+
+  div{
+    padding: 0 15px;
+  }
 }
