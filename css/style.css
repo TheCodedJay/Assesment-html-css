@@ -314,12 +314,6 @@ body {
   color: #666;
 }
 
-a {
-  text-decoration: none;
-  background: transparent;
-  color: #fff;
-}
-
 .header {
   background-color: #fff;
   box-sizing: border-box;
@@ -345,6 +339,12 @@ footer {
 
 .footer h4 {
   font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
 }
 
 .footer--logo img {
@@ -397,15 +397,16 @@ div[class^=footer__] {
   grid-template-rows: 150% vh;
   grid-template-areas: "header" "banner" "middle" "footer";
 }
-.container div {
-  padding: 0 15px;
-}
 
 footer__socials--links a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 30px;
+}
+
+articles a p {
+  color: #666;
 }
 
 .btn--primary img {
