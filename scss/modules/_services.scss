@@ -1,0 +1,75 @@
+.middle__services {   
+
+    .h1 {
+        font-weight: 600;
+        font-size: 2.7rem;
+        text-align: left;
+        margin-bottom: -10px;
+        margin-top: -13px 
+    }
+
+    .block {
+        display: block;
+        padding: 30px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .h2 {
+        position: relative;
+        margin: 0 0 11px;
+        padding-bottom: 10px;
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+
+[class^="middle__services--"] p {
+    display: block;
+    padding: 30px;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+[class^="middle__services--"] a {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+[class^="middle__services--"] button {
+    height: auto;
+    line-height: 35px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    user-select: none;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+    margin-top: 30px;
+}
+

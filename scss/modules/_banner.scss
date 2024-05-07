@@ -1,0 +1,42 @@
+.banner {
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/home-YLei.png');
+    background-position: center; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.banner__overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__text {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn--banner {
+    color: #fff;
+    background-color: #926fb1;
+    border-color: #926fb1;
+    line-height: 50px;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
